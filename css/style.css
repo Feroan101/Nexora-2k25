@@ -387,17 +387,26 @@ footer {
 -----------------------------------------*/
 
 responsive-video {
+  margin-left: 220px;
   max-width: 100%; /* Ensures the video is responsive */
   height: auto; /* Maintains aspect ratio */
 }
 
-@media (max-width: 768px) { /* Adjusts for mobile screens */
-  .responsive-video {
-    width: 100%; /* Makes video full width */
-    height: auto; /* Adjust height proportionally */
-    margin-left: 0; /* Removes margin for better alignment */
+@media (max-width: 768px) { 
+  .video-wrapper {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full screen height */
+  }
+
+  .res-vid {
+    width: 80%; /* Responsive width */
+    max-width: 400px; /* Optional: Prevents it from getting too large */
+    height: auto; /* Maintain aspect ratio */
   }
 }
+
 
 
 
