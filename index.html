@@ -703,6 +703,13 @@ http://www.templatemo.com/tm-486-new-event
 		});
 	});
 
+	document.addEventListener("DOMContentLoaded", function () {
+    var video = document.getElementById("bg-video");
+    video.play().catch(error => {
+      console.log("Autoplay prevented:", error);
+    });
+  });
+
 	
 	</script>
 	
