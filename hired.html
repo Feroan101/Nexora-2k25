@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+New Event
+http://www.templatemo.com/tm-486-new-event
+-->
+<title>Hired or Fired</title>
+<meta name="description" content="">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<meta name="author" content="">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+<style>
+    .custom-navbar{background-color: #000000; padding: 0px;}
+    footer {
+        background-color: #000000;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    footer p, footer ul {
+        text-align: center;
+    }
+
+    .nav-tabs > li {
+        float: none;
+        display: inline-block;
+    }
+
+    .nav-tabs {
+
+        display: block;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 12px;
+        width: 100%; /* Full-width button on mobile */
+    }
+    .btn-danger:hover {
+        background: transparent;
+        border-color: #333333;
+        color: #333333;
+    }
+
+    .event-poster {
+        width: 360px; /* Default size for larger screens */
+        height: 450px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    /* Reduce image size only on small screens */
+    @media (max-width: 576px) { 
+        .event-poster {
+            width: 330px; /* Smaller width for mobile */
+            height: 435px; /* Adjust height accordingly */
+        }
+    }
+
+</style>
+
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+
+</head>
+<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+<!-- =========================
+     PRE LOADER       
+============================== -->
+<div class="preloader">
+
+	<div class="sk-rotating-plane"></div>
+
+</div>
+
+
+<!-- =========================
+     NAVIGATION LINKS     
+============================== -->
+<div class="navbar navbar-fixed-top custom-navbar navbar-default" role="navigation">
+	<div class="container">
+
+		<!-- navbar header -->
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="index.html" class="navbar-brand">Nexora 2k25</a>
+		</div>
+
+		<div class="collapse navbar-collapse">
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html" class="smoothScroll">Intro</a></li>
+				<li><a href="index.html#overview" class="smoothScroll">Overview</a></li>
+				<li><a href="index.html#program" class="smoothScroll">Programs</a></li>
+				<li><a href="index.html#register" class="smoothScroll">Register</a></li>
+				<li><a href="index.html#venue" class="smoothScroll">Venue</a></li>
+				<li><a href="index.html#sponsors" class="smoothScroll">Sponsors</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!--content--> <br><br>
+<!-- =========================
+    EVENT DETAILS SECTION   
+============================== -->
+<section id="event-details" style="padding: 50px 0;color: black;">
+    <div class="container">
+        <h2 class="text-center">Hired or Fired</h2>
+
+        <div class="row">
+            <!-- Event Poster -->
+            <div class="col-md-6 col-sm-12">
+                <img src="images/hired.png" alt="Event Poster" class="event-poster">
+            </div>
+        
+            <!-- Event Details -->
+            <div class="col-md-6 col-sm-12">        
+                <div class="event-container" style="background-color: #ffffff; color: #f2545f; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);">
+                    
+                    <!-- Tabs for Rounds -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#round1">Round 1</a></li>
+                        <li><a data-toggle="tab" href="#round2">Round 2</a></li>
+                        <li><a data-toggle="tab" href="#round3">Final Round</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="round1" class="tab-pane fade in active">
+                            <h4>Round 1: Aptitude Test</h4> 
+                            <p> A written test covering logical reasoning, quantitative aptitude, and verbal ability. <br><br>
+                                <strong>Time Limit:</strong> 10-15 minutes.<br>
+                                <strong>Purpose:</strong> Tests analytical thinking, problem-solving, and decision-making skills.<br>
+                            </p>
+                        </div>
+                        <div id="round2" class="tab-pane fade">
+                            <h4>Round 2: Domain-Specific Questions</h4>
+                            <p>Participants will face questions related to their field of study (engineering, management, finance, etc.).<br><br>
+                               <strong>Format:</strong> MCQs + a few short-answer questions.<br>
+                                <strong>Time Limit:</strong> 10 -15 minutes.<br>
+                                <strong>Purpose:</strong> Tests subject knowledge, practical understanding, and problem-solving skills.<br>
+                            </p>
+                        </div>
+                        <div id="round3" class="tab-pane fade">
+                            <h4>Final Round: Behavioral / HR Round</h4>
+                            <p>A mock interview conducted by panelists/judges. <br>
+                                Focuses on communication skills, confidence, body language, and situational responses.<br><br>
+                                <strong>Time Limit:</strong> 10 minutes. <br>
+                                <strong>Purpose:</strong> Tests professionalism, soft skills, and ability to handle pressure.<br>
+                                <strong>Winners:</strong> Judges will decide the 1st and 2nd place winners based on overall performance.</p>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <p><strong>Registration Fee:</strong> ₹100 per Team</p>
+                    <p><strong>Time:</strong> 09.30PM - 12.00PM</p>
+                    <p><strong>Team Size:</strong> 1-3 Members</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9BpilE74GduvoWUImbDftUGnWEmxEVDWk3X7zBWiG1feKeg/viewform?usp=header" class="btn btn-lg btn-danger">REGISTER NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- =========================
+    FOOTER SECTION   
+============================== -->
+<footer style="background-color: #000000; padding-top: 3rem ; padding-bottom:5rem ;">
+	<div class="container" >
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<p class="wow fadeInUp" data-wow-delay="0.6s">Copyright &copy; Jeppiaar Engineering College</p>
+
+				<!--<ul class="social-icon">
+					<li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+					<li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+					<li><a href="#" class="fa fa-dribbble wow fadeInUp" data-wow-delay="1.6s"></a></li>
+					<li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
+					<li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="2s"></a></li>
+				</ul>-->
+
+			</div>
+			
+		</div>
+	</div>
+</footer> 
+
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+<!-- =========================
+     SCRIPTS   
+============================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$(".smoothScroll").on('click', function(event) {
+			if (this.hash !== "") {
+				event.preventDefault();
+				var hash = this.hash;
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top - 70 // Adjust for fixed navbar
+				}, 800);
+			}
+		});
+	});
+	</script>
+	
+
+</body>
+</html>
