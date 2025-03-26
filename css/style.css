@@ -516,7 +516,13 @@ responsive-video {
   opacity: 0.7;
 }
 
+.learn{color: #f2545f !important;
 
+}
+
+.learn:hover{
+  color: rgb(0, 200, 200) !important;
+}
 
 /*---------------------------------------
     Regsiter section              
